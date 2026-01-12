@@ -1,3 +1,30 @@
 *{
     margin: 0;
+    font-family: plus jakarta;
+}
+
+/* header */
+
+header{
+    max-width: 1152px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+}
+header a{
+    text-decoration: none;
+}
+.hd1 i{
+    background-color: blue;
+    border-radius: 15px;
+    color: #fff;
+    padding: 10px;
+    margin-right: 8px;
+}
+.hd1 a{
+    color: #000;
+    font-size: 24px;
+    font-weight: 800;
 }
