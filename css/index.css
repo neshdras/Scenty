@@ -4,8 +4,10 @@
 }
 
 /* header */
-
 header{
+    background-color: #F8FAFC;
+}
+header article{
     max-width: 1152px;
     margin: auto;
     display: flex;
@@ -13,6 +15,7 @@ header{
     justify-content: space-between;
     padding: 50px;
     align-items: center;
+
 }
 header a{
     text-decoration: none;
