@@ -1,3 +1,46 @@
 *{
     margin: 0;
+    font-family: plus jakarta;
+}
+
+/* header */
+
+header{
+    max-width: 1152px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+}
+header a{
+    text-decoration: none;
+}
+.hd1 i{
+    background-color: #4f46e5;
+    border-radius: 15px;
+    color: #fff;
+    padding: 10px;
+    margin-right: 8px;
+}
+.hd1 a{
+    color: #000;
+    font-size: 24px;
+    font-weight: 800;
+}
+.hd2 a{
+    color: #475569;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px;
+}
+.hd3 a{
+    
+    background-color: #000;
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
 }
