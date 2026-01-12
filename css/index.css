@@ -118,6 +118,15 @@ background: linear-gradient(90deg,rgba(66, 133, 244, 1) 15%, rgba(15, 157, 88, 1
         transition: all 0.3s ease-in-out;
     }
 }
+
+.s2{
+    max-width: 1152px;
+    margin: auto;
+}
+.s2d2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 /* Footer */
 
 footer{
