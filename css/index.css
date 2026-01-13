@@ -13,7 +13,7 @@ header article{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 50px;
+    padding: 50px 0;
     align-items: center;
 
 }
@@ -235,7 +235,7 @@ header a{
     padding: 0;
 }
 .s3 img{
-    width: fit-content;
+    width: 100%;
 }
 .s4{
     display: flex;
@@ -243,7 +243,7 @@ header a{
     max-width: 1152px;
     margin: auto;
     align-items: center;
-    padding: 100px;
+    padding: 100px 0;
     gap: 50px;
     margin-bottom: 20px;
 }
@@ -300,6 +300,9 @@ header a{
     color: #15803D;
     background-color: #BBF7D0;
 }
+.dnom>article>p{
+    color: #64748B;
+}
 /* Footer */
 
 footer{
@@ -307,7 +310,7 @@ footer{
     justify-content: space-evenly;
     align-items: center;
     background-color: #0F172A;
-    padding: 70px;
+    padding: 70px 0;
 }
 
 footer div a, footer p{
