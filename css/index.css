@@ -346,7 +346,8 @@ footer span{
         gap: 0;
     }
     .dnom{
-        gap: 24px;
+        gap: 10px;
+        grid-template-columns: 40% 60%;
     } 
 }
 @media screen and (max-width :767px) {
