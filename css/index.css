@@ -87,6 +87,9 @@ header a{
 .s1 img{
     width: 100%;
 }
+.sinair{
+    display: none;
+}
 .s1 a{
     text-decoration: none;
     font-size: 16px;
@@ -353,6 +356,12 @@ footer span{
     .s1 h1{
         font-size: 48px;
         line-height: 60px;
+    }
+    .sinair{
+        display: block;
+    }
+    .telair{
+        display: none;
     }
     .s1>div{
         grid-template-columns: none;
