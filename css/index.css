@@ -176,7 +176,9 @@ header a{
     padding: 10px;
     border-radius: 8px;
 }
-.s3{
+.s3>div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background-color: #F8FAFC;
 }
 /* Footer */
