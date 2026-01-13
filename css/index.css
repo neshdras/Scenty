@@ -122,6 +122,7 @@ header a{
 .s2{
     max-width: 1152px;
     margin: auto;
+    padding: 60px 0;
 }
 .s2d1{
     display: flex;
@@ -176,10 +177,21 @@ header a{
     padding: 10px;
     border-radius: 8px;
 }
-.s3>div{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.s3{
+    display: block;
     background-color: #F8FAFC;
+    padding: 60px 0;
+}
+.s3 div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 60px;
+    margin: auto;
+    max-width: 1104px;
+}
+.s3 img{
+    width: fit-content;
 }
 /* Footer */
 
