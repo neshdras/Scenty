@@ -182,7 +182,7 @@ header a{
     background-color: #F8FAFC;
     padding: 60px 0;
 }
-.s3 div{
+.s3>div{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
@@ -199,7 +199,7 @@ header a{
     font-size: 18px;
     color: #475569;
     line-height: 28px;
-    padding: 10px 0;
+    padding: 30px 0;
 }
 .s3 h3{
     color: #0F172A;
@@ -207,8 +207,26 @@ header a{
     font-weight: 700;
     line-height: 28px;
 }
+.s3 ul{
+    padding: 0;
+}
 .s3 li{
     padding-bottom: 16px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+}
+.s3num{
+    background: linear-gradient(135deg, #4F46E5 0%, #9333EA 100%);
+    color: #fff;
+    padding: 14px 22px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: #c7d2fe 4px 0 10px 0;
 }
 .s3>ul>p{
     color: #64748B;
