@@ -333,3 +333,44 @@ footer span{
     position: relative;
     bottom: 5px;
 }
+
+@media screen and (max-width :1024px) {
+    .s1{
+        padding-bottom: 60px;
+    }
+    .s1>div{
+        grid-template-columns: 40% 60%;
+        gap: 0;
+    }
+    .dnom{
+        gap: 24px;
+    } 
+}
+@media screen and (max-width :767px) {
+    .hd2{
+        display: none;
+    }
+    .s1 h1{
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .s1>div{
+        grid-template-columns: none;
+        gap: 20px;
+    }
+    .s1>div>article>div{
+        display: grid;
+        gap: 20px;
+    }
+    .apple{
+        margin-right: 0;
+    }
+    .s2d2, .s3 li, .s4d1, .s3>div{
+        grid-template-columns: none;
+    }
+    footer{
+        gap: 10px;
+        flex-direction: column;
+    }
+    
+}
